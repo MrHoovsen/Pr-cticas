@@ -1,0 +1,92 @@
+public class Prácticas {
+
+	public static void main(String[] args) {
+		
+		int x = 1;
+		int y = x+1;
+		int z = x-1;
+		
+		String a = "LOL";
+		String b = "OMG";
+		String c = "WTF";
+		
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		
+		System.out.println(a+" "+b+" "+c);
+		System.out.println(b+" "+a+" "+c);
+		System.out.println(c+" "+a+" "+b);
+		
+		while (x<=10){
+			
+			System.out.println("Valor de x es igual a:"+ x);
+			x=x+1;
+			
+		}
+		
+		switch (a) //TODO Más casos
+		{
+			case "LOL":
+				System.out.println("a = LOL");
+				break;
+			case "OMG":
+				System.out.println("a = OMG");
+				break;
+			case "WTF":
+				System.out.println("a = WTF");
+				break;
+			default:
+				System.out.println("Error 404: No se encontró mensaje");
+				break;
+		}
+		
+		for(int i = 20; i<=10000; i++)
+		{
+			if (i==100)
+			{
+				System.out.println("La variable i es igual a 100");
+			}
+			
+			if (i==1000)
+			{
+				System.out.println("La variable i es igual a 1000");
+			}
+			
+			if (i==5421)
+			{
+				System.out.println("La variable i es igual a 5421");
+			}
+			
+			if (i==9999)
+			{
+				System.out.println("La variable i es igual a 9999; este ciclo será parado");
+				break;
+			}
+			
+		}
+		
+		if(y==2)
+		{
+			System.out.println("y es igual a "+y);
+		}
+		
+		else if(y==0)
+		{
+			System.out.println("y es igual a "+y);
+		}
+		
+		else
+		{
+			System.out.println("y es igual a (UNKNOWN_NUMBER)");
+		}
+		
+		while(z>=0)
+		{
+			System.out.println("z es igual a "+z);
+			z=z-1;
+		}
+
+	}
+
+}
